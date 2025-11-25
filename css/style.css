@@ -26,14 +26,14 @@ ul {
 .link:hover {
   color: orange;
 }
-.btn {
+.btn-reg {
   font-weight: 700;
   padding: 7px 12px;
   border: 1px solid black;
   border-radius: 4px;
   transition: all 0.3s;
 }
-.btn:hover {
+.btn-reg:hover {
   color: orange;
   border: 1px solid orange;
 }
@@ -45,9 +45,35 @@ ul {
 .carousel-item img {
   height: 100%;
 }
+
 /* Cards Section */
 .h2 {
   font-size: 32px;
   font-weight: 900;
   color: rgb(106, 166, 106);
+  border-bottom: 1px solid rgb(106, 166, 106);
+  margin: 30px 130px;
+  text-transform: uppercase;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 130px;
+}
+.cards img {
+  height: 150px;
+}
+.cards p {
+  margin-bottom: 25px;
+}
+.btn-green {
+  font-weight: 700;
+  padding: 7px 12px;
+  border: 1px solid black;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+.btn-green:hover {
+  color: rgb(106, 166, 106);
+  border: 1px solid rgb(106, 166, 106);
 }
