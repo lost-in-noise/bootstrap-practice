@@ -37,3 +37,17 @@ ul {
   color: orange;
   border: 1px solid orange;
 }
+/* MAIN */
+/* C A R O U S E L */
+.carousel-item {
+  height: 700px;
+}
+.carousel-item img {
+  height: 100%;
+}
+/* Cards Section */
+.h2 {
+  font-size: 32px;
+  font-weight: 900;
+  color: rgb(106, 166, 106);
+}
